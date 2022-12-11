@@ -1,9 +1,14 @@
+import Navbar from "./components/Navbar";
+import FillerComponent from "./components/FillerComponent";
 const App = () => {
   return (
-    <main className="flex flex-col h-screen justify-center">
-      <h1 className="text-5xl m-auto">
-        React + Tailwind + Typescript + Vite Template
-      </h1>
+    <main className="flex flex-col h-screen">
+      <Navbar />
+      <div className="flex flex-inline h-full">
+        <FillerComponent />
+        <FillerComponent />
+        <FillerComponent />
+      </div>
     </main>
   );
 };
