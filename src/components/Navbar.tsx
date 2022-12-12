@@ -2,7 +2,9 @@ const Navbar = () => {
   return (
     <div className="flex min-w-min bg-gray-300 h-20">
       <div>
-        <p className="mt-2 ml-2 mb-auto p-5 border border-red-600">Logo</p>
+        <p className="mt-2 ml-2 mb-auto mr-28 p-5 border border-red-600">
+          Logo
+        </p>
       </div>
       <div className="m-auto flex-inline">
         <h1 className="text-center">WEBSITE NAME</h1>
